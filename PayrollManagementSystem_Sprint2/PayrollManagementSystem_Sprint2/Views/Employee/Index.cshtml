@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Employee Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h3 align="center">EMPLOYEE DASHBOARD</h3>
+<h2 align="center">_____________________________________________________</h2>
+<ul>
+    <li><a asp-action="EmployeeDetailsView" asp-route-id="">Employee Details</a></li>
+    <li><a asp-action="ApplyForLeave">Apply Leaves</a></li>
+    <li><a asp-action="CreateTimesheet">Fill Timesheets</a></li>
+    <li><a asp-action="ViewPayrollMasterEmployee" asp-route-id="">View Salary Report</a></li>
+    <li><a asp-action="ViewLeaveDetails">View Leaves</a></li>
+</ul>
